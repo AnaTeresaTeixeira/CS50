@@ -1,0 +1,43 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+I tested sorted5000.txt:
+        time real: 0m0.029s
+        If the numbers are already lined up, I think it turns out to be faster.
+
+I tested random5000.txt:
+        time real: 0m0.076s
+        And as they are not ordered here, it ends up taking longer.
+
+I tested reversed5000.txt:
+        time real: 0m0.091s
+
+
+
+sort2 uses: Merge sort
+
+How do you know?:
+I tested sorted5000.txt:
+        time real: 0m0.041s
+
+I tested random5000.txt:
+        time real: 0m0.021s
+        As you can see in class, if the numbers are random, the fastest is the merge sort.
+
+I tested reversed5000.txt:
+        time real: 0m0.042s
+
+
+
+sort3 uses: Selection sort
+
+How do you know?:
+I tested sorted5000.txt:
+         time real: 0m0.049s
+
+I tested random5000.txt:
+        time real: 0m0.074s
+         As you can see in class, if the numbers are random, the second fastest is the selection sort.
+
+I tested reversed5000.txt:
+        time real: 0m0.074s
